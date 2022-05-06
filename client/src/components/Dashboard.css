@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    border: 2px solid black;
+   display: flex;
+   flex-direction: column;
+}
+.upperContainer{
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+         background-color: #f5e1fe; 
+        flex-wrap: wrap;  
+       justify-content: space-between; 
+    }
+.lowerContainer{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    background-color: aquamarine;
+}
+.lowerContainer form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input{
+    margin: 4px;
+    padding: 3px;
+    align-items: center;
+}
+form label{
+    display: flex;
+    justify-self: baseline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-weight: 500;
+    color:black;
+}
+#btn{
+    height: 20px;
+    width: 90px;
+    color: black;
+    background-color: white;
+    padding: 3px;
+    border-radius: 2px;
+    border: 2px solid black;
+}
+.dataContainer{
+    height: max-content;
+    width: 30%;
+    border: 2px solis red;
+    border-radius: 3px;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(236, 235, 231, 0.797);
+
+}
+.dataContainer h1{
+    color:black;
+    font-weight: 300;
+    padding: 3px;
+    font-size: small;
+    font-family: cursive;
+}
+.DataBox{
+    display: flex;
+    flex-direction: column;
+   /* border: 2px solid red; */
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    /* border:2px solid black; */
+}
+#btn1{
+    height:max-content;
+    width: max-content;
+    align-items: center;
+}
+#btn2{
+    height:max-content;
+    width: max-content;
+    align-items: center;
+}
